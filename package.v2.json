@@ -1,0 +1,15 @@
+{
+  "name": "axium-zero",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index_v2.js",
+    "start:legacy": "node src/index.js",
+    "engine:v2": "node runtime/engine_v2.js",
+    "engine:legacy": "node runtime/engine.js",
+    "replay:probe": "node src/demo/replay_harness_v3_probe.js",
+    "replay:feeds": "node runtime/replay_from_feeds.js",
+    "replay:eth": "node runtime/replay_eth.js"
+  }
+}
