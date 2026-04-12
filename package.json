@@ -1,0 +1,10 @@
+{
+  "name": "axium-zero",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "replay:probe": "node src/demo/replay_harness_v3_probe.js"
+  }
+}
